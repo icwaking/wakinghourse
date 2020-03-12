@@ -1,0 +1,30 @@
+
+/*面包屑*/
+.breadcrumb { padding: 12px 0px; width: 100%; overflow:hidden; }
+.cbreadcrumb{float:right; width:300px;margin:22px 0 0 20px; background:#f7f7f7; padding-left:30px; font-weight:bold; border-radius:4px;}
+.breadcrumb li:first-child { padding-left: 0px; background: none; }
+.breadcrumb li {float:left; padding: 0px 10px 0 15px; font-size: 13px; text-transform: uppercase; display: inline-block; list-style: none; background: url(../images/arrow.png) no-repeat -10px -1px; }
+.breadcrumb li.active { background-position: -10px -51px; }
+.breadcrumb li.active a { color:#f38256; }
+.breadcrumb li.actived a { color:#ffb68a; }
+
+/*确认页面*/
+.check .black,{color:#544f4b; height:25px; line-height:25px; font-size: 16px; background:#fff; padding:10px 0 0 20px; }
+.pay-skip .black{color:#f38256; padding:10px 30px 10px 10px;}
+.person-check  .black{color:#f38256; padding:20px 30px 2px 20px; text-align:center;}
+
+
+/**/
+.pay-skip{width:978px;margin:20px auto;height: 400px;border: 1px solid #D6D6D6; padding:15px 0;}
+.pay-skip h1{padding-left: 20px;height:40px;line-height:40px;font-size: 16px;color:#E25F2B;word-spacing: 10px; }
+.pay-skip h2{text-align:center;}
+.pay-skip .payskip-inner{width: 550px;margin: 0 auto; font-size:14px;}
+.payskip-innerli{ overflow:hidden; padding:5px 0;}
+.payskip-innerli2{ overflow:hidden; padding:5px 0; line-height:40px;}
+.payskip-innerli .span1{float:left; display:inline-block;width:100px; color:#666;}
+.payskip-innerli .span2{float:right; display:inline-block;width:450px;}
+.pay-skip .payskip-inner strong{color: #E3602C}
+.pay-skip .pay-sub{margin: 20px;}
+.pay-skip .pay-sub a{display:inline-block;width: 180px;height: 40px;line-height:40px;text-align:center;background-color:#f38256; color:#fff; font-size:14px; margin-left:81px;}
+.pay-skip .pay-sub a:hover{background-color:#e39735; text-decoration:none;}
+
